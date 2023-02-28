@@ -1,0 +1,25 @@
+tr:hover {
+    background-color:white;
+  } 
+  #boarderstyle{
+    padding-left:2px;
+    padding-right: 2px;
+   
+    border-collapse: collapse;
+    border: 1px solid black;
+    width:80%;
+    height:50%;
+    margin-top: 10px;
+    margin-left: 125px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+  
+  }
+  #datastyle{
+    border: 1px solid black;
+  }
+#paddingdata{
+    padding-top: 1px;
+    padding-bottom: 2px;
+}

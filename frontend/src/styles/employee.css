@@ -1,0 +1,48 @@
+.employee-table-card{
+    width: 100%;
+    background-color: white;
+    border-radius:15px;
+   
+}
+#employee-div{
+    padding:40px 40px 40px 40px;
+  }
+table tr  td{
+    padding-left:20px;
+    padding-right: 20px;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ddd;
+  
+  }
+  
+  #table-response {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  #color-info{
+    color:#8c8c8c;
+  }
+  #name-info{
+    color:black;
+    font-weight:bold;
+  }
+  #font-color,#name-info{
+    font-weight: bold;
+    color:#8c8c8c;
+  }
+  tr:hover {
+    background-color:#E4E7E9;
+  }
+  tr{
+    height:70px;
+  }
+  th{
+    padding-bottom:20px;
+    font-size: 17px;
+    color:black;
+    
+  }
+  .ant-border-space th:before {
+    display: none;
+  }
+  
