@@ -1,0 +1,62 @@
+server:
+  port: 4000
+  
+spring:
+  application:
+    name: API_GATEWAY
+  cloud:
+    gateway:
+      routes:
+      - id: employee-service
+        uri:
+          lb://employee-service
+        predicates:
+        - Path=/employee/** 
+      - id: employee-login-service
+        uri:
+          lb://employee-login-service
+        predicates:
+        - Path=/login/** 
+      - id: news-service
+        uri:
+          lb://news-service
+        predicates:
+        - Path=/news/** 
+      - id: saral-news-service
+        uri:
+          lb://saral-news-service
+        predicates:
+        - Path=/newsfeed/**
+      - id: saral-news-service
+        uri:
+          lb://saral-news-service
+        predicates:
+        - Path=/comments/**       
+      - id: document-service
+        uri:
+          lb://document-service
+        predicates:
+        - Path=/documents/**
+      - id: saral-projects-service
+        uri:
+          lb://saral-projects-service
+        predicates:
+        - Path=/projects/** 
+      - id: saral-projects-service
+        uri:
+          lb://saral-projects-service
+        predicates:
+        - Path=/stakeholders/** 
+      - id: saral-projects-service
+        uri:
+          lb://saral-projects-service
+        predicates:
+        - Path=/supporters/** 
+      - id: saral-projects-service
+        uri:
+          lb://saral-projects-service
+        predicates:
+        - Path=/jobs/** 
+      
+      
+    
