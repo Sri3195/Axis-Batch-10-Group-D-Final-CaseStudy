@@ -1,0 +1,10 @@
+{
+  "simulation": "employeelogindatabase.EmployeeLoginDatabaseSimulation",
+  "simulationId": "employeelogindatabasesimulation-20230225145600971",
+  "start": 1677336962345,
+  "description": "",
+  "scenarios": ["Users"],
+  "assertions": [
+
+  ]
+}
