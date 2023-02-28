@@ -1,0 +1,10 @@
+{
+  "simulation": "newsdatabase.NewsDatabaseSimulation",
+  "simulationId": "newsdatabasesimulation-20230225150730446",
+  "start": 1677337651835,
+  "description": "",
+  "scenarios": ["Users"],
+  "assertions": [
+
+  ]
+}
